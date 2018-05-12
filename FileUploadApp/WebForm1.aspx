@@ -80,10 +80,6 @@ body
                     
                     </ProgressTemplate>
                 </asp:UpdateProgress>
-                
-                <p>
-                    &nbsp;</p>
-
 
     </form>
 </body>
