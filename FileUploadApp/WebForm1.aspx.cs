@@ -116,8 +116,6 @@ namespace FileUploadApp
                     {
 
                         connection.Close();
-
-                        // LoadData();
                     }
                 }
             
@@ -126,7 +124,7 @@ namespace FileUploadApp
         private string getIPAdrr()
         {
             IPHostEntry Host = default(IPHostEntry);
-            string Hostname = null;
+            string Hostname = "";
             string ipaddr = "";
             Hostname = System.Environment.MachineName;
             Host = Dns.GetHostEntry(Hostname);
